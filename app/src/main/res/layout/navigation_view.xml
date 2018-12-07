@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    android:id="@+id/navigation_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingLeft="16.3dp"
+        android:background="@drawable/image">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/girlreading"
+            app:riv_oval="true"/>
+
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARRT"
+            android:textSize="13.3sp"
+            android:textColor="#deffffff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+           />
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARRT@gmail.com"
+            android:textSize="13.3sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="2dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19.3dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download"
+            android:tint="#cb0000"/>
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inbox"
+            android:textSize="13.3sp"
+            android:textColor="#de000000"
+            android:layout_marginLeft="40dp"/>
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.3dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/outbox_icon"
+               />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Outbox"
+                android:textSize="13.3sp"
+                android:textColor="#de000000"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.3dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trash_icon"
+              />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trash"
+                android:textSize="13.3sp"
+                android:textColor="#de000000"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.3dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/spam_icon" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spam"
+                android:textSize="13.3sp"
+                android:textColor="#de000000"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.3dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forums_icon" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forums"
+                android:textSize="13.3sp"
+                android:textColor="#de000000"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.3dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/updates_icon" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Updates"
+                android:textSize="13.3sp"
+                android:textColor="#de000000"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.3dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/promos_icon" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Promos"
+                android:textSize="13.3sp"
+                android:textColor="#de000000"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.3dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/purchase_icon" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purchases"
+                android:textSize="13.3sp"
+                android:textColor="#de000000"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.NavigationView>
